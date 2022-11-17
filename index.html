@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng
+                            <!-- header QR code -->
+                            <div class="header_qr">
+                                <img src="./assets/img/QR_code.png" alt="QR code" class="qr_img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/ggplay.png" alt="Gooog Play" class="header__qr-dowaload">
+                                    </a>
+                                    <a href="" class="header__qr-dowload">
+                                        <img src="./assets/img/appstore.png" alt="App Store" class="header__qr-dowaload">
+                                    </a>
+                                    </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class=" header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class=" header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-notify">
+                            <a href="" class=" header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo 
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/b3bee4d8081a74e41c7b6012ac7a2549_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm 0hui chính hãng</span>
+                                                <span class="header__notify-descriotion">Mô tả mỹ phẩm 0hui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/c83bb2f22f19d620c088bee7cfacfcca" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kho quà 100 triệu chỉ còn hôm nay</span>
+                                                <span class="header__notify-descriotion">Mô tả mỹ phẩm 0hui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/75dc554ad9991dce0f9ce0742a5fb6a6" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">0hui chính thức ra dòng son lì mới </span>
+                                                <span class="header__notify-descriotion">Bộ mỹ phẩm 6 món cơ bản giá tốt - Kem BB+Phấn trang điểm+Bảng phấn mắt 8 màu+Chì kẻ mày đen+Kẻ mắt+Mascara-HGLML...</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class=" header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp</a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    -->
+                    <li class="header__navbar-item header__navbar-user">
+                        <img src="./assets/img/avt_user.png" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Nguyễn Văn Tung</span>
+
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Địa chỉ</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item header__navbar-user-item-separate ">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </li>
+                
+                </ul>
+                </nav>
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <svg fill="#fff" viewBox="0 0 192 65" class="header-logo__img"><g fill-rule="evenodd"><path d="M35.6717403 44.953764c-.3333497 2.7510509-2.0003116 4.9543414-4.5823845 6.0575984-1.4379707.6145919-3.36871.9463856-4.896954.8421628-2.3840266-.0911143-4.6237865-.6708937-6.6883352-1.7307424-.7375522-.3788551-1.8370513-1.1352759-2.6813095-1.8437757-.213839-.1790053-.239235-.2937577-.0977428-.4944671.0764015-.1151823.2172535-.3229831.5286218-.7791994.45158-.6616533.5079208-.7446018.5587128-.8221779.14448-.2217688.3792333-.2411091.6107855-.0588804.0243289.0189105.0243289.0189105.0426824.0333083.0379873.0294402.0379873.0294402.1276204.0990653.0907002.0706996.14448.1123887.166248.1287205 2.2265285 1.7438508 4.8196989 2.7495466 7.4376251 2.8501162 3.6423042-.0496401 6.2615109-1.6873341 6.7308041-4.2020035.5160305-2.7675977-1.6565047-5.1582742-5.9070334-6.4908212-1.329344-.4166762-4.6895175-1.7616869-5.3090528-2.1250697-2.9094471-1.7071043-4.2697358-3.9430584-4.0763845-6.7048539.296216-3.8283059 3.8501677-6.6835796 8.340785-6.702705 2.0082079-.004083 4.0121475.4132378 5.937338 1.2244562.6816382.2873109 1.8987274.9496089 2.3189359 1.2633517.2420093.1777159.2898136.384872.1510957.60836-.0774686.12958-.2055158.3350171-.4754821.7632974l-.0029878.0047276c-.3553311.5640922-.3664286.5817134-.447952.7136572-.140852.2144625-.3064598.2344475-.5604202.0732783-2.0600669-1.3839063-4.3437898-2.0801572-6.8554368-2.130442-3.126914.061889-5.4706057 1.9228561-5.6246892 4.4579402-.0409751 2.2896772 1.676352 3.9613243 5.3858811 5.2358503 7.529819 2.4196871 10.4113092 5.25648 9.869029 9.7292478M26.3725216 5.42669372c4.9022893 0 8.8982174 4.65220288 9.0851664 10.47578358H17.2875686c.186949-5.8235807 4.1828771-10.47578358 9.084953-10.47578358m25.370857 11.57065968c0-.6047069-.4870064-1.0948761-1.0875481-1.0948761h-11.77736c-.28896-7.68927544-5.7774923-13.82058185-12.5059489-13.82058185-6.7282432 0-12.2167755 6.13130641-12.5057355 13.82058185l-11.79421958.0002149c-.59136492.0107446-1.06748731.4968309-1.06748731 1.0946612 0 .0285807.00106706.0569465.00320118.0848825H.99995732l1.6812605 37.0613963c.00021341.1031483.00405483.2071562.01173767.3118087.00170729.0236381.003628.0470614.00554871.0704847l.00362801.0782207.00405483.004083c.25545428 2.5789222 2.12707837 4.6560709 4.67201764 4.7519129l.00576212.0055872h37.4122078c.0177132.0002149.0354264.0004298.0531396.0004298.0177132 0 .0354264-.0002149.0531396-.0004298h.0796027l.0017073-.0015043c2.589329-.0706995 4.6867431-2.1768587 4.9082648-4.787585l.0012805-.0012893.0017073-.0350275c.0021341-.0275062.0040548-.0547975.0057621-.0823037.0040548-.065757.0068292-.1312992.0078963-.1964115l1.8344904-37.207738h-.0012805c.001067-.0186956.0014939-.0376062.0014939-.0565167M176.465457 41.1518926c.720839-2.3512494 2.900423-3.9186779 5.443734-3.9186779 2.427686 0 4.739107 1.6486899 5.537598 3.9141989l.054826.1556978h-11.082664l.046506-.1512188zm13.50267 3.4063683c.014933.0006399.014933.0006399.036906.0008531.021973-.0002132.021973-.0002132.044372-.0008531.53055-.0243144.950595-.4766911.950595-1.0271786 0-.0266606-.000853-.0496953-.00256-.0865936.000427-.0068251.000427-.020262.000427-.0635588 0-5.1926268-4.070748-9.4007319-9.09145-9.4007319-5.020488 0-9.091235 4.2081051-9.091235 9.4007319 0 .3871116.022399.7731567.067838 1.1568557l.00256.0204753.01408.1013102c.250022 1.8683731 1.047233 3.5831812 2.306302 4.9708108-.00064-.0006399.00064.0006399.007253.0078915 1.396026 1.536289 3.291455 2.5833031 5.393601 2.9748936l.02752.0053321v-.0027727l.13653.0228215c.070186.0119439.144211.0236746.243409.039031 2.766879.332724 5.221231-.0661182 7.299484-1.1127057.511777-.2578611.971928-.5423827 1.37064-.8429007.128211-.0968312.243622-.1904632.34346-.2781231.051412-.0452164.092372-.083181.114131-.1051493.468898-.4830897.498124-.6543572.215249-1.0954297-.31146-.4956734-.586228-.9179769-.821744-1.2675504-.082345-.1224254-.154023-.2267215-.214396-.3133151-.033279-.0475624-.033279-.0475624-.054399-.0776356-.008319-.0117306-.008319-.0117306-.013866-.0191956l-.00256-.0038391c-.256208-.3188605-.431565-.3480805-.715933-.0970445-.030292.0268739-.131624.1051493-.14997.1245582-1.999321 1.775381-4.729508 2.3465571-7.455854 1.7760208-.507724-.1362888-.982595-.3094759-1.419919-.5184948-1.708127-.8565509-2.918343-2.3826022-3.267563-4.1490253l-.02752-.1394881h13.754612zM154.831964 41.1518926c.720831-2.3512494 2.900389-3.9186779 5.44367-3.9186779 2.427657 0 4.739052 1.6486899 5.537747 3.9141989l.054612.1556978h-11.082534l.046505-.1512188zm13.502512 3.4063683c.015146.0006399.015146.0006399.037118.0008531.02176-.0002132.02176-.0002132.044159-.0008531.530543-.0243144.950584-.4766911.950584-1.0271786 0-.0266606-.000854-.0496953-.00256-.0865936.000426-.0068251.000426-.020262.000426-.0635588 0-5.1926268-4.070699-9.4007319-9.091342-9.4007319-5.020217 0-9.091343 4.2081051-9.091343 9.4007319 0 .3871116.022826.7731567.068051 1.1568557l.00256.0204753.01408.1013102c.250019 1.8683731 1.04722 3.5831812 2.306274 4.9708108-.00064-.0006399.00064.0006399.007254.0078915 1.396009 1.536289 3.291417 2.5833031 5.393538 2.9748936l.027519.0053321v-.0027727l.136529.0228215c.070184.0119439.144209.0236746.243619.039031 2.766847.332724 5.22117-.0661182 7.299185-1.1127057.511771-.2578611.971917-.5423827 1.370624-.8429007.128209-.0968312.243619-.1904632.343456-.2781231.051412-.0452164.09237-.083181.11413-.1051493.468892-.4830897.498118-.6543572.215246-1.0954297-.311457-.4956734-.586221-.9179769-.821734-1.2675504-.082344-.1224254-.154022-.2267215-.21418-.3133151-.033492-.0475624-.033492-.0475624-.054612-.0776356-.008319-.0117306-.008319-.0117306-.013866-.0191956l-.002346-.0038391c-.256419-.3188605-.431774-.3480805-.716138-.0970445-.030292.0268739-.131623.1051493-.149969.1245582-1.999084 1.775381-4.729452 2.3465571-7.455767 1.7760208-.507717-.1362888-.982582-.3094759-1.419902-.5184948-1.708107-.8565509-2.918095-2.3826022-3.267311-4.1490253l-.027733-.1394881h13.754451zM138.32144123 49.7357905c-3.38129629 0-6.14681004-2.6808521-6.23169343-6.04042014v-.31621743c.08401943-3.35418649 2.85039714-6.03546919 6.23169343-6.03546919 3.44242097 0 6.23320537 2.7740599 6.23320537 6.1960534 0 3.42199346-2.7907844 6.19605336-6.23320537 6.19605336m.00172791-15.67913203c-2.21776751 0-4.33682838.7553485-6.03989586 2.140764l-.19352548.1573553V34.6208558c0-.4623792-.0993546-.56419733-.56740117-.56419733h-2.17651376c-.47409424 0-.56761716.09428403-.56761716.56419733v27.6400724c0 .4539841.10583425.5641973.56761716.5641973h2.17651376c.46351081 0 .56740117-.1078454.56740117-.5641973V50.734168l.19352548.1573553c1.70328347 1.3856307 3.82234434 2.1409792 6.03989586 2.1409792 5.27140956 0 9.54473746-4.2479474 9.54473746-9.48802964 0-5.239867-4.2733279-9.48781439-9.54473746-9.48781439M115.907646 49.5240292c-3.449458 0-6.245805-2.7496948-6.245805-6.1425854 0-3.3928907 2.79656-6.1427988 6.245805-6.1427988 3.448821 0 6.24538 2.7499081 6.24538 6.1427988 0 3.3926772-2.796346 6.1425854-6.24538 6.1425854m.001914-15.5438312c-5.28187 0-9.563025 4.2112903-9.563025 9.4059406 0 5.1944369 4.281155 9.4059406 9.563025 9.4059406 5.281657 0 9.562387-4.2115037 9.562387-9.4059406 0-5.1946503-4.280517-9.4059406-9.562387-9.4059406M94.5919049 34.1890939c-1.9281307 0-3.7938902.6198995-5.3417715 1.7656047l-.188189.1393105V23.2574169c0-.4254677-.1395825-.5643476-.5649971-.5643476h-2.2782698c-.4600414 0-.5652122.1100273-.5652122.5643476v29.2834155c0 .443339.1135587.5647782.5652122.5647782h2.2782698c.4226187 0 .5649971-.1457701.5649971-.5647782v-9.5648406c.023658-3.011002 2.4931278-5.4412923 5.5299605-5.4412923 3.0445753 0 5.516841 2.4421328 5.5297454 5.4630394v9.5430935c0 .4844647.0806524.5645628.5652122.5645628h2.2726775c.481764 0 .565212-.0824666.565212-.5645628v-9.5710848c-.018066-4.8280677-4.0440197-8.7806537-8.9328471-8.7806537M62.8459442 47.7938061l-.0053397.0081519c-.3248668.4921188-.4609221.6991347-.5369593.8179812-.2560916.3812097-.224267.551113.1668119.8816949.91266.7358184 2.0858968 1.508535 2.8774525 1.8955369 2.2023021 1.076912 4.5810275 1.646045 7.1017886 1.6975309 1.6283921.0821628 3.6734936-.3050536 5.1963734-.9842376 2.7569891-1.2298679 4.5131066-3.6269626 4.8208863-6.5794607.4985136-4.7841067-2.6143125-7.7747902-10.6321784-10.1849709l-.0021359-.0006435c-3.7356476-1.2047686-5.4904836-2.8064071-5.4911243-5.0426086.1099976-2.4715346 2.4015793-4.3179454 5.4932602-4.4331449 2.4904317.0062212 4.6923065.6675996 6.8557356 2.0598624.4562232.2767364.666607.2256796.9733188-.172263.035242-.0587797.1332787-.2012238.543367-.790093l.0012815-.0019308c.3829626-.5500403.5089793-.7336731.5403767-.7879478.258441-.4863266.2214903-.6738208-.244985-1.0046173-.459427-.3290803-1.7535544-1.0024722-2.4936356-1.2978721-2.0583439-.8211991-4.1863175-1.2199998-6.3042524-1.1788111-4.8198184.1046878-8.578747 3.2393171-8.8265087 7.3515337-.1572005 2.9703036 1.350301 5.3588174 4.5000778 7.124567.8829712.4661613 4.1115618 1.6865902 5.6184225 2.1278667 4.2847814 1.2547527 6.5186944 3.5630343 6.0571315 6.2864205-.4192725 2.4743234-3.0117991 4.1199394-6.6498372 4.2325647-2.6382344-.0549182-5.2963324-1.0217793-7.6043603-2.7562084-.0115337-.0083664-.0700567-.0519149-.1779185-.1323615-.1516472-.1130543-.1516472-.1130543-.1742875-.1300017-.4705335-.3247898-.7473431-.2977598-1.0346184.1302162-.0346012.0529875-.3919333.5963776-.5681431.8632459"></path></g></svg>
+                   
+                        </a>
+                         </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">                           
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href=""  >Laptop gaming</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href=""  >Tai nghe iphone</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href=""  >Cục sạc chính hãng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                                <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+                               
+                                <ul class="header__search-option">
+                                    <li class="header__search-option-item header__search-option-item--active ">
+                                        <span>Trong shop</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </li>
+                                    <li class="header__search-option-item">
+                                        <span>Ngoài shop</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </li>
+                                </ul>
+                            
+                        </div>
+                        <button class="header__search-btn">
+
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    
+                    </div>
+                    <!-- Cart -->
+
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <span class="header__cart-notice">5</span>
+
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <!-- no cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img src="./assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                                <p class="header__cart-list-no-cart-msg">Chưa có sản phẩm</p>
+                           
+                           <!-- has cart -->
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                            
+                                <ul  class="header__cart-list-item">
+
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/f3a753ba1a1facf434ecfde3d298fa74_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Ram Laptop DDR4 4GB 8GB 16GB Bus 2133/2400/2666 (Samsung/ Hynix / MT/ Kingston Hàng zin theo máy 100% bảo hành 36 tháng)</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-mutifly">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <div class="header__cart-item-description">Phân loại: Bạc</div>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/e7dcf49dcb6a3a1ebbf299f3dc657452_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Giá đỡ laptop stand nhôm hỗ trợ tản nhiệt công thái học, có thể gấp gọn chỉnh độ cao để laptop ipad macbook surface D103 </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">200.000đ</span>
+                                                    <span class="header__cart-item-mutifly">x</span>
+                                                    <span class="header__cart-item-qnt">5</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <div class="header__cart-item-description">Phân loại: Trắng</div>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/ae8e6cd313bb996c798b6f73e1289bd6_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Lót chuột cỡ lớn 80x30cm dày dặn 3mm chuyên game chống trơn trượt siêu bền siêu rẻ</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">189.000đ</span>
+                                                    <span class="header__cart-item-mutifly">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <div class="header__cart-item-description">Phân loại: Đen</div>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/f2d055cf521f062eaaa5abb3b0eaf14c_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Dây Nguồn có Jack DC 5.5*2.1mm</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">200.000đ</span>
+                                                    <span class="header__cart-item-mutifly">x</span>
+                                                    <span class="header__cart-item-qnt">5</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <div class="header__cart-item-description">Phân loại: Trắng</div>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/ae3b06b4de47bbface09a23131247d3d_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name"> HY1707 mosfet kênh N tháo máy 80A 70V</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">189.000đ</span>
+                                                    <span class="header__cart-item-mutifly">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <div class="header__cart-item-description">Phân loại: Đen</div>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                                                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <!-- Heading img -->
+                <div class="container__heading">
+                    <img src="https://cf.shopee.vn/file/2c9492319a184f4214d3b39ee14ef1fd" alt="" class="container__heading-img">
+                    <img src="https://cf.shopee.vn/file/0ed0d80b26a4a8dc8f8652679f37604d" alt="" class="container__heading-img">
+                </div>
+
+                <!-- Giảm thêm khi thanh toán online -->
+                <div class="pay">
+                    <span class="pay__heading">GIẢM THÊM KHI THANH TOÁN ONLINE</span>
+                    <div class="grid__row">
+                        <div class="grid__column-3 pay__body">
+                            <a href="#" class="pay__body-link">
+                                <img src="https://cdn.tgdd.vn/2022/05/banner/380x200-380x200-3.jpg" alt="" class="pay_img">
+                            </a>
+                            <a href="#" class="pay__body-link">
+                                <img src="https://cdn.tgdd.vn/2022/04/banner/VnPaylaptop-380x200.png" alt="" class="pay_img">
+                            </a>
+                            <a href="#" class="pay__body-link">
+                                <img src="https://cdn.tgdd.vn/2022/04/banner/TPBank-380x200.png" alt="" class="pay_img">
+                            </a>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- Dịch vụ tiện ích -->
+                <div class="services">
+                    <div class="services__heading">
+                        <span class="services__heading-name">DỊCH VỤ TIỆN ÍCH</span>
+                        <div class="services__heading-btn">
+                            <a href="#" class="pay__heading-btn-name">XEM THÊM DỊCH VỤ</a>
+                            <i class="pay__heading-btn-icon fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__row">
+                        <div class=" grid__column-4">
+                            <div class=" services__body-box services__body-box--background-1 ">
+                                <div class="services__body-box-item">
+                                    <i class="services__body-box--background-1 fa-solid fa-mobile-screen-button"></i>
+                                    <div class="services__body-box-item-cont">
+                                        <h3 class="services__body-box-item-cont-name">Mua mã thẻ cào</h3>
+                                        <span class="services__body-box-item-cont--cont">
+                                            <strong>Giảm 3%</strong> cho mệnh giá từ 100.000đ trở lên
+                                        </span>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                        <div class=" grid__column-4">
+                            <div class=" services__body-box services__body-box--background-2">
+                                <div class="services__body-box-item">
+                                    <i class="services__body-box--background-2 fa-solid fa-bolt-lightning"></i>
+                                    <div class="services__body-box-item-cont">
+                                        <h3 class="services__body-box-item-cont-name">Dịch vụ đóng tiền</h3>
+                                        <span class="services__body-box-item-cont--cont">Điện, nước, internet, cước điện thoại trả sau
+                                        </span>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                        <div class=" grid__column-4">
+                            <div class=" services__body-box services__body-box--background-3 ">
+                                <div class="services__body-box-item">
+                                    <i class="services__body-box--background-3 fa-solid fa-gamepad"></i>
+                                    <div class="services__body-box-item-cont">
+                                        <h3 class="services__body-box-item-cont-name">Mua thẻ game</h3>
+                                        <span class="services__body-box-item-cont--cont">
+                                            <strong>Giảm 5%</strong> cho tất cả nhà mạng, áp dụng cho mệnh giá 100.000đ trở lên
+                                        </span>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                        <div class=" grid__column-4">
+                            <div class=" services__body-box services__body-box--background-4">
+                                <div class="services__body-box-item">
+                                    <i class="services__body-box--background-4 fa-solid fa-ticket"></i>
+                                    <div class="services__body-box-item-cont">
+                                        <h3 class="services__body-box-item-cont-name">Vé máy bay, tàu</h3>
+                                        <span class="services__body-box-item-cont--cont">Thu hộ tiền vé xe, vé tàu, vé máy bay
+                                        </span>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                      
+                        
+                    </div>
+                </div>
+
+    
+    
+                <!-- Danh mục + san pham-->
+
+                <div class="grid__row app__content">
+                    <!-- danh muc -->
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Điện thoại</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Laptop</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Đồng hồ</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Phụ kiện</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Smartwatch</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sim thẻ cào</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Máy cũ giá rẻ</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Dịch vụ tiện ích</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <!-- <i class="category__heading-icon fa-solid fa-list"></i> -->
+                                Khuyến mãi hot
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">
+                                        <img src="https://cdn.tgdd.vn/2022/07/banner/380-x-200-380x200.png" alt="" class="category-item-img">
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">
+                                        <img src="https://cdn.tgdd.vn/2022/07/banner/380x200-380x200-3.png" alt="" class="category-item-img">
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">
+                                        <img src="//cdn.tgdd.vn/2022/07/banner/Desktop-380x200-1-380x200-2.png" alt="" class="category-item-img">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                Đơn vị vận chuyển
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="">
+                                        <i class="fa-regular fa-square"></i>Hỏa tốc</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="">
+                                        <i class="fa-regular fa-square"></i>Nhanh</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="">
+                                        <i class="fa-regular fa-square"></i>Tiết kiệm</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <!-- menu san pham -->
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                               <span class="select-input__label">Giá</span>
+                               <i class="select-input__icon fa-solid fa-angle-down"></i>
+                               <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                               </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/21
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable ">
+                                        <i class="home-filter__page-icon  fa-solid fa-angle-left"></i>
+                                        
+                                    </a>
+                                    <a href="" class="home-filter__page-btn ">
+                                        <i class="home-filter__page-icon  fa-solid fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- San pham -->
+                        <div class="home-product">
+                        <div class="grid__row">
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/7264/231781/elio-es048-01-nam-1-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Mbest DS506-WB</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">420.000đ</span>
+                                        <span class="home-product-item__price-current">399.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 1k</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Omega</span>
+                                        <span class="home-product-item__brand-name">Thụy Sỹ</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/57/214690/pin-sac-du-phong-polymer-10000mah-type-c-pd-qc30-m-avatar-1-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">ELIO 40 mm Nam ES048-01</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">499.000đ</span>
+                                        <span class="home-product-item__price-current">188.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 2,1k</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Longines</span>
+                                        <span class="home-product-item__brand-name">Mỹ</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">77,7%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/2162/212959/loa-vi-tinh-21-enkor-e700-den-thumb-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Loa vi tính Bluetooth Enkor E700</h4>
+                                    <div class="home-product-item__price">
+                                        <!-- <span class="home-product-item__price-old">560.000đ</span> -->
+                                        <span class="home-product-item__price-current">560.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 111</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Movado</span>
+                                        <span class="home-product-item__brand-name">Nhật Bản</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">21%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div> -->
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/7264/231809/elio-el071-01-nam-1-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">ELIO Nắng Xuân 39 mm Nam EL071-01</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">200.000đ</span>
+                                        <span class="home-product-item__price-current">188.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like ">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 121</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Calvin Klein</span>
+                                        <span class="home-product-item__brand-name">Hàn Quốc</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/54/251825/bluetooth-true-wireless-ava-ds204a-wb-trang-thumb-1-600x600.jpeg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name"> Tai nghe Bluetooth True Wireless AVA+ DS204A-WB</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">500.000đ</span>
+                                        <span class="home-product-item__price-current">355.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 555</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">AVA</span>
+                                        <span class="home-product-item__brand-name">Singapo</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích +</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">45%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                             <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/7264/216238/larmes-lm-tf003-bbs6t-121-6tb-nu-1-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">LARMES Transformers 45 mm Nữ LM-TF003.BBS6T.121.6TB</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">1.200.000đ</span>
+                                        <span class="home-product-item__price-current">588.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 21</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">ILand</span>
+                                        <span class="home-product-item__brand-name">England</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div> -->
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">60%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                             <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/9499/211647/adapter-sac-24a-dual-xmobile-ds702-trang-8-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Sạc 2 cổng Xmobile DS702</h4>
+                                    <div class="home-product-item__price">
+                                        <!-- <span class="home-product-item__price-old">22.000đ</span> -->
+                                        <span class="home-product-item__price-current">150.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 8,5k</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <span class="home-product-item__brand-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích+</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">21%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div> -->
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cf.shopee.vn/file/e891e6f900bf8b1760a343231e31f726_tn" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name"> [Mã ELAP157 giảm 5% đơn 3TR] Apple iPhone 11 128GB</h4>
+                                    <div class="home-product-item__price">
+                                        <!-- <span class="home-product-item__price-old">12.000.000đ</span> -->
+                                        <span class="home-product-item__price-current">9.390.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 150</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <span class="home-product-item__brand-name">Anh</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">5%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div> -->
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/57/228892/sac-du-phong-10000mah-type-c-powerslim-jp213-avatar-1-600x600-1-600x600.jpg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Pin sạc dự phòng Polymer 10.000 mAh Type C PD QC3.0 Xmobile PowerSlim PJ JP213</h4>
+                                    <div class="home-product-item__price">
+                                        <!-- <span class="home-product-item__price-old">22.000đ</span> -->
+                                        <span class="home-product-item__price-current">490.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 12</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <span class="home-product-item__brand-name">Nhật Bản</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div> -->
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">HOT</span>
+                                        <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cdn.tgdd.vn/Products/Images/54/250701/airpods-3-hop-sac-khong-day-thumb-600x600.jpeg" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Tai nghe Bluetooth AirPods 3 Apple MME73 Trắng</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">1.600.000đ</span>
+                                        <span class="home-product-item__price-current">980.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class=" fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 2</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Brand</span>
+                                        <span class="home-product-item__brand-name">Hàn Quốc</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">15%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cf.shopee.vn/file/3bb5251fce316e6454640d43965ce969_tn" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Sim số Vietnamobile chuyên tạo các tài khoản Shopee</h4>
+                                    <div class="home-product-item__price">
+                                        <!-- <span class="home-product-item__price-old">699.000đ</span> -->
+                                        <span class="home-product-item__price-current">11.000đ</span>
+                                        <!-- <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg> -->
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 10k</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">No Brand</span>
+                                        <!-- <span class="home-product-item__brand-name">Việt Nam</span> -->
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích +</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div> -->
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cf.shopee.vn/file/524e35e3293b52b8a220dadbcdc08512_tn" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Que Chọc Sim - Táo Xanh Phụ Kiện</h4>
+                                    <div class="home-product-item__price">
+                                        <!-- <span class="home-product-item__price-old">699.000đ</span> -->
+                                        <span class="home-product-item__price-current">1.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 756</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">No Brand</span>
+                                        <!-- <span class="home-product-item__brand-name">Việt Nam</span> -->
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích +</span>
+                                    </div>
+                                    <!-- <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div> -->
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cf.shopee.vn/file/609e5f031ad1a69de263e386bc425697_tn" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Giá đỡ điện thoại để bàn hình chữ V</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">4.000đ</span>
+                                        <span class="home-product-item__price-current">2.000đ</span>
+                                        <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 55,7k</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">No Brand</span>
+                                        <!-- <span class="home-product-item__brand-name">Việt Nam</span> -->
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích +</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">50%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cf.shopee.vn/file/29aea811d104afff2751b1caddbe0f31_tn" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Nokia E72 Mới_Điện Thoại Cổ Nokia  E72_Điện Thoại Phổ Thông Zin Chính Hãng Bảo Hành 12 Tháng|Tuân Hưng Yên</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">699.000đ</span>
+                                        <span class="home-product-item__price-current">549.000đ</span>
+                                        <!-- <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg> -->
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 5,7k</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">IRC</span>
+                                        <span class="home-product-item__brand-name">Việt Nam</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích +</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <!-- product-item -->
+                                <a class="home-product-item" href="#">
+                                    <!-- <div class="home-product-item__img" style="background-image: url(https://img.tickid.vn/photos/resized/160x160/83-1580898039-myphamohui-lgvina.png);"></div> -->
+                                    <img src="https://cf.shopee.vn/file/8d6b8ca3a99968a288bc94a2a560eb46_tn" alt="" class="home-product-item__img">
+                                    <h4 class="home-product-item__name">Cục phát wifi 4G Olax Wd680 Đa Mạng, Bộ phát wifi di động BF-01B Chất Lượng Châu Âu, Tốc Độ 150Mb Hỗ Trợ Tất Cả Nhà Mạng</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">900.000đ</span>
+                                        <span class="home-product-item__price-current">689.000đ</span>
+                                        <!-- <svg height="12" viewBox="0 0 20 12" width="20" class="home-product-item__icon-free"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg> -->
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like-liked">
+                                            <i class="home-product-item__like-icon fa-regular fa-heart"></i>
+                                            <i class="home-product-item__liked-icon fa-solid fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            <i class="home-product-item__start-gold fa-solid fa-star"></i>
+                                            
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 327</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Hà Nội</span>
+                                        <!-- <span class="home-product-item__brand-name">Việt Nam</span> -->
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            
+       
+                        </div>
+                        </div>
+
+
+                        <!-- page san pham -->
+    
+                        <div class="page">
+                            <ul class="page__footer">
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">
+                                        <i class="p fa-solid fa-angle-left"></i>
+                                    </a>
+                                </li>
+
+                                <li class="page__footer-item page__footer-item--active">
+                                    <a href="" class="page__footer-item-link">1</a>
+                                </li>
+                                
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">2</a>
+                                </li>
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">3</a>
+                                </li>
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">4</a>
+                                </li>
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">5</a>
+                                </li>
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">...</a>
+                                </li>
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">21</a>
+                                </li>
+                                <li class="page__footer-item">
+                                    <a href="" class="page__footer-item-link">
+                                        <i class="p fa-solid fa-angle-right"></i>
+                                    </a>
+                                </li>                               
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row"> 
+                    <!-- Chăm sóc khách hàng -->
+                    <div class=" grid__column-2-4 ">
+                        <h3 class="footer__item-heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                        <ul class="footer__item-list">
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Trung tâm trợ giúp</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Shopee Blog</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Shopee Mall</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Hướng dẫn mua hàng</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Hướng dẫn bán hàng</li>
+                                </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Thanh toán</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Shopee xu</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Vận chuyển</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Trả hàng & hoàn tiền</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Chăm sóc khách hàng</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Chính sách bảo hành</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <!-- Về shop -->
+                    <div class=" grid__column-2-4 ">
+                        <h3 class="footer__item-heading">VỀ SHOPEE</h3>
+                        <ul class="footer__item-list">
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Giới thiệu về Shopee Việt Nam</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Tuyển dụng</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Điều khoản Shopee</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Chính sách bảo mật</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Chính hãng</li>
+                                </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Kênh người bán</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Flash sales</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Chương trình tiếp thị liên kế shopee</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <li class="footer__item-list--content">Liên hệ với truyền thông</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <!-- Thanh toán -->
+                    <div class=" grid__column-2-4 ">
+                        <nav class="footer__pay-ship">
+                            <h3 class="footer__pay-ship-heading">
+                                THANH TOÁN
+                            </h3>
+                            <ul class="footer__pay-ship--list">
+                                <li class="footer__pay-ship--link">
+                                    <img src="data:image/png;base64,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" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="data:image/png;base64,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" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://png.pngtree.com/png-vector/20210526/ourlarge/pngtree-cash-on-delivery-cod-supper-design-png-png-image_3358106.jpg" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://cdn.mykiot.vn/2021/08/1629269900898cd03c146cf115048e1bc351a85422.png" alt="" class="footer__pay-ship--img">
+                                </li>
+                            </ul>
+
+                        </nav>
+                        <nav class="footer__pay-ship">
+                            <h3 class="footer__pay-ship-heading">
+                                ĐƠN VỊ VẬN CHUYỂN
+                            </h3>
+                            <ul class="footer__pay-ship--list">
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://static.topcv.vn/company_logos/3hGPe93OfHOUL2QUpNJijMwJ6s0uZ3Gr_1637140440____ea75d9fb6acf791dbeee91c457f6863e.png" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://viettelpost.com.vn/wp-content/uploads/2019/04/logo-380x270.jpg" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="data:image/jpeg;base64,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" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://theme.zdassets.com/theme_assets/2366774/b6e1f9f8064bc6cc8067073d1e53cbc40b4a6376.png" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="https://static.topcv.vn/company_logos/eqTzkhv8IhtY7tMlX37OPyR5nUd8aH9l_1645580354____9f59e16ae214913e68c3b66a9e2fc0f0.jpg" alt="" class="footer__pay-ship--img">
+                                </li>
+                                <li class="footer__pay-ship--link">
+                                    <img src="data:image/png;base64,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" alt="" class="footer__pay-ship--img">
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                    <!-- Theo dõi chúng tôi trên -->
+                    <div class=" grid__column-2-4 ">
+                        <h3 class="footer__item-heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
+                        <ul class="footer__item-list">
+                            <a href="" class="footer__item-list-link">
+                                    <i class="footer__item-list-icon fa-brands fa-facebook"></i>
+                                    <li class="footer__item-list--content">Facebook</li>
+                                </a>
+                            <a href="" class="footer__item-list-link">
+                                <i class="footer__item-list-icon fa-brands fa-instagram-square"></i>
+                                <li class="footer__item-list--content">Instagram</li>
+                            </a>
+                            <a href="" class="footer__item-list-link">
+                                <i class="footer__item-list-icon fa-brands fa-linkedin"></i>
+                                <li class="footer__item-list--content">Linkedin</li>
+                            </a>
+                            
+                        </ul>
+                    </div>
+                    <!-- Tải ứng dụng ngay -->
+                    <div class=" grid__column-2-4 ">
+                        <h3 class="footer__item-heading">TẢI ỨNG DỤNG NGAY THÔI</h3>
+                        <ul class="footer__item-list">
+                            <div class="footer__item-list-down">
+                                <a href="#" class="footer__item-list-down-link">
+
+                                    <img src="./assets/img/QR_code.png" alt="" class="footer__item-list-img">
+                                </a>
+                                <div class="footer__item-list-place-down">
+                                    <a href="" class="footer__item-list-place-down-link">
+                                        <img src="./assets/img/appstore.png" alt="" class="footer__item-list-place-down-img">
+                                    </a>
+                                    <a href="" class="footer__item-list-place-down-link">
+                                        <img src="./assets//img/ggplay.png" alt="" class="footer__item-list-place-down-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+      
+    <!-- Note Modal -->
+    <!-- <div class="modal"> -->
+        <!-- Note modal__overlay lop phu -->
+        <!-- <div class="modal__overlay"></div> -->
+        <!-- Note noi dung -->
+        <!-- <div class="modal_body"> -->
+            <!-- Note form  register -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form_header">
+                        <h3 class="auth-form_heading">Đăng ký</h3>
+                        <span class="auth-form_switch-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form_form">
+                        <div class="auth-form-form_group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form-form_group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form-form_group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form_aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shop về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ </a> &
+                            <a href="" class="auth-form__text-link">chính sách bảo mật </a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn-size-s auth-form__socials--facebook btn--icon">
+                        <i class="fa-brands auth-form__socials-icon fa-facebook"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="btn btn-size-s auth-form__socials--google  btn--icon">
+                        <i class="fa-brands auth-form__socials-icon fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- Note form login -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form_header">
+                        <h3 class="auth-form_heading">Đăng nhập</h3>
+                        <span class="auth-form_switch-btn">Đăng ký</span>
+                    </div>
+                    <div class="auth-form_form">
+                        <div class="auth-form-form_group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form-form_group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form_aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help--link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help--separate"></span>
+                            <a href="" class="auth-form__help--link">Cần trợ giúp</a>
+
+                        </div>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn-size-s auth-form__socials--facebook btn--icon">
+                        <i class="fa-brands auth-form__socials-icon fa-facebook"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="btn btn-size-s auth-form__socials--google  btn--icon">
+                        <i class="fa-brands auth-form__socials-icon fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+    <!-- </div> -->
+</body>
+</html>
